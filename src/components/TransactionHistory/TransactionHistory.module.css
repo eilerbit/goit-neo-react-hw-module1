@@ -1,0 +1,31 @@
+.transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.transactionTable th {
+    background-color: #333;    
+    color: #fff;    
+    padding: 8px;
+}
+
+.transactionTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: #333;    
+}
+
+.transactionTable tr:nth-child(even) {
+    background-color: #f9f9f9;   
+} 
+
+.transactionTable tr:nth-child(odd) {
+    background-color: #fff;    
+}
+
+.transactionTable tr:hover {
+    background-color: #e3e3e3;    
+}
